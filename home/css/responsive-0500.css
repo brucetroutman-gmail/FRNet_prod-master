@@ -39,7 +39,7 @@ The @media MAX-width query properties
   } 
   .BoxMenu {
     padding: 0px;
-    /*background-color: pink;*/
+    background-color: whitesmoke;
   } 
   .Logo {
     padding-left: 2.8rem;
