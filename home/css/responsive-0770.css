@@ -21,9 +21,9 @@ The @media MAX-width query properties
   }
   .MenuWrap .Menu > div {
     /*move menu around*/
-      justify-content: left; /*was center*/
-      padding-left: 180px; /*was deleted*/
-      margin-top: -300px; /*was deleted*/
+      justify-content: space-between; /*was center*/
+      padding-left: 200px; /*was deleted*/
+      margin-top: -280px; /*was deleted*/
     /*end of move around*/
   }
   .MenuWrap .Menu > div > div > ul > li > a {
@@ -40,7 +40,7 @@ The @media MAX-width query properties
   } 
   .BoxMenu {
     padding: 0px;
-    /*background-color: pink;*/
+    background-color: whitesmoke;
   } 
   .Logo {
     padding-left: 2.8rem;
