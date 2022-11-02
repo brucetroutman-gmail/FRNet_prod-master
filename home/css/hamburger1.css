@@ -3,8 +3,8 @@
   --Primary-color: whitesmoke;
   --Hamburger-color: blue;
   /*--overlay-color: rgba(24, 39, 51 , 0.85);*/ /*brads orig color*/
-  --Overlay-color: rgba(245, 245, 245, .0); /*whitesmoke */
   --Overlay-color: rgba(100, 149, 237, 0.5);  /*cornflower blue*/
+  --Overlay-color: rgba(245, 245, 245, .0); /*whitesmoke */
   --MenuBackground-color: whitesmoke;
   --MenuBackground-opacity: 1;
   --Menu-speed: 2s;
@@ -127,16 +127,17 @@
 }
 .MenuWrap .Menu > div {
   background: var(--Overlay-color);
-  border-radius: 50%;
-  width: 150vw; /*was 200*/
-  height: 150vw; /*was 200*/
+  border-radius: 25%;
+  width: 200vw; /*was 200*/
+  height: 200vw; /*was 200*/
   display: flex;
   flex: none;
   align-items: center;
+  margin: 0px 0px 0px 350px;
+  padding-top: 100px;
 /*move menu around*/
   justify-content: center; /*left for iphone look*/
 /*padding-left: 200px; /*was deleted*/
-/*margin-top: -290px; /*was deleted*/
 
 /*end of move around*/
   transform: scale(0);
